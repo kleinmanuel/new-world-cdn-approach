@@ -9,6 +9,9 @@ import Point from "ol/geom/Point";
 import { circular } from "ol/geom/Polygon";
 import Control from "ol/control/Control";
 
+//test
+document.getElementById("h1id").innerHTML = "yourTextHere";
+
 // create map
 const map = new Map({
   target: "map-container",

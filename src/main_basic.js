@@ -1,7 +1,10 @@
-import OSM from "ol/source/OSM";
-import TileLayer from "ol/layer/Tile";
-import { Map, View } from "ol";
-import { fromLonLat } from "ol/proj";
+import OSM from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers/source/OSM.js";
+import TileLayer from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers/layer/Tile.js";
+import {
+  Map,
+  View,
+} from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers.js";
+import { fromLonLat } from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers/proj.js";
 
 new Map({
   target: "map-container",
