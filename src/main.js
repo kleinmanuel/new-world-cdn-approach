@@ -1,13 +1,16 @@
-import OSM from "ol/source/OSM";
-import TileLayer from "ol/layer/Tile";
-import { Map, View } from "ol";
-import { fromLonLat } from "ol/proj";
-import VectorLayer from "ol/layer/Vector";
-import VectorSource from "ol/source/Vector";
-import Feature from "ol/Feature";
-import Point from "ol/geom/Point";
-import { circular } from "ol/geom/Polygon";
-import Control from "ol/control/Control";
+import OSM from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers/source/OSM.js";
+import TileLayer from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers/layer/Tile.js";
+import {
+  Map,
+  View,
+} from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers.js";
+import { fromLonLat } from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers/proj.js";
+import VectorLayer from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers/layer/Vector.js";
+import VectorSource from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers/source/Vector.js";
+import Feature from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers/Feature.js";
+import Point from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers/geom/Point.js";
+import { circular } from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers/geom/Polygon.js";
+import Control from "https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.11/lib/OpenLayers/control/Control.js";
 
 //test
 document.getElementById("h1id").innerHTML = "yourTextHere";
